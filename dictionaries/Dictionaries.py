@@ -26,6 +26,7 @@ print(d['k1']['nestkey']['subnestkey'].upper())
 d['k1'] = 1
 d['k2'] = 2
 d['k3'] = 3
+
 print(d)
 
 print(d.keys())
@@ -33,3 +34,8 @@ print(d.values())
 print(d.items())
 
 
+# Getting a little tricker
+d = {'k1':[{'nest_key':['this is deep',['hello']]}]}
+
+#Grab hello
+print(d['k1'][0]['nest_key'][1])
