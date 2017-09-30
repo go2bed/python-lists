@@ -25,7 +25,7 @@ l[0] = 's'
 
 print(l)
 
-#t[0] = 'r'  ##Error, cause tuple is immitable
+#t[0] = 'r'  ##Error, cause tuple is immutable
 
 
 
