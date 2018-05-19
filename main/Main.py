@@ -1,7 +1,9 @@
 from datetime import datetime
+
 import glob2
 
 a = []
+
 
 def writer(c):
     date = datetime.now()
